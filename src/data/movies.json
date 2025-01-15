@@ -1,0 +1,205 @@
+[
+  {
+    "id": "841a3a1e-6d6a-4ebb-a8a6-9b0976e2ea7a",
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "rate": 9.3,
+    "url": "https://www.imdb.com/title/tt0111161/"
+  },
+  {
+    "id": "75013394-735e-471b-bb34-00bb4251b882",
+    "title": "The Godfather",
+    "year": 1972,
+    "rate": 9.2,
+    "url": "https://www.imdb.com/title/tt0068646/"
+  },
+  {
+    "id": "3fee1200-1521-4b8c-8865-09dffd22cbad",
+    "title": "The Dark Knight",
+    "year": 2008,
+    "rate": 9,
+    "url": "https://www.imdb.com/title/tt0468569/"
+  },
+  {
+    "id": "9336504b-6572-4c0d-b731-15dce0c8c0c1",
+    "title": "The Godfather Part II",
+    "year": 1974,
+    "rate": 9,
+    "url": "https://www.imdb.com/title/tt0071562/"
+  },
+  {
+    "id": "7b8547ca-48e8-401e-85ee-0fa2d24fc6ba",
+    "title": "12 Angry Men",
+    "year": 1957,
+    "rate": 9,
+    "url": "https://www.imdb.com/title/tt0050083/"
+  },
+  {
+    "id": "e40f92a0-e8da-4e8c-9b05-9d1eab288a73",
+    "title": "Schindler's List",
+    "year": 1993,
+    "rate": 9,
+    "url": "https://www.imdb.com/title/tt0108052/"
+  },
+  {
+    "id": "1fc3bef3-cf81-4791-8d51-98238954311a",
+    "title": "The Lord of the Rings: The Return of the King",
+    "year": 2003,
+    "rate": 8.9,
+    "url": "https://www.imdb.com/title/tt0167260/"
+  },
+  {
+    "id": "2d6d7472-30d2-4649-8443-98fff58e1587",
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "rate": 8.9,
+    "url": "https://www.imdb.com/title/tt0110912/"
+  },
+  {
+    "id": "5d4e64b3-ca5e-4460-883d-7275c2bdfe5b",
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "year": 2001,
+    "rate": 8.8,
+    "url": "https://www.imdb.com/title/tt0120737/"
+  },
+  {
+    "id": "1887940e-cfe3-4404-908a-c74e0da4418f",
+    "title": "The Good, the Bad and the Ugly",
+    "year": 1966,
+    "rate": 8.8,
+    "url": "https://www.imdb.com/title/tt0060196/"
+  },
+  {
+    "id": "819d61c6-40fd-46a8-b0e4-e4c0b3db33f9",
+    "title": "Forrest Gump",
+    "year": 1994,
+    "rate": 8.8,
+    "url": "https://www.imdb.com/title/tt0109830/"
+  },
+  {
+    "id": "d5767b98-2bdc-4b32-8b26-614ae66b7e10",
+    "title": "Fight Club",
+    "year": 1999,
+    "rate": 8.7,
+    "url": "https://www.imdb.com/title/tt0137523/"
+  },
+  {
+    "id": "fcedc2ab-38e9-40ca-8ebc-007c40a13e89",
+    "title": "Inception",
+    "year": 2010,
+    "rate": 8.7,
+    "url": "https://www.imdb.com/title/tt1375666/"
+  },
+  {
+    "id": "083e7551-7d2b-4e85-9b30-13b9b9f3cbad",
+    "title": "The Lord of the Rings: The Two Towers",
+    "year": 2002,
+    "rate": 8.7,
+    "url": "https://www.imdb.com/title/tt0167261/"
+  },
+  {
+    "id": "2585909f-d8a9-4020-b13b-c04c5449186b",
+    "title": "Star Wars: Episode V - The Empire Strikes Back",
+    "year": 1980,
+    "rate": 8.7,
+    "url": "https://www.imdb.com/title/tt0080684/"
+  },
+  {
+    "id": "2b3b9b9b-a84e-4dca-b4ea-3b2594a0fedb",
+    "title": "The Matrix",
+    "year": 1999,
+    "rate": 8.7,
+    "url": "https://www.imdb.com/title/tt0133093/"
+  },
+  {
+    "id": "d807b889-1d87-4bed-b808-28aa05e97372",
+    "title": "Goodfellas",
+    "year": 1990,
+    "rate": 8.7,
+    "url": "https://www.imdb.com/title/tt0099685/"
+  },
+  {
+    "id": "568b68ce-77b9-429c-8014-f9a852493b80",
+    "title": "One Flew Over the Cuckoo's Nest",
+    "year": 1975,
+    "rate": 8.6,
+    "url": "https://www.imdb.com/title/tt0073486/"
+  },
+  {
+    "id": "7cac9057-ef7a-41b1-b9da-fc3ce52bbce5",
+    "title": "Se7en",
+    "year": 1995,
+    "rate": 8.6,
+    "url": "https://www.imdb.com/title/tt0114369/"
+  },
+  {
+    "id": "f412b443-95c7-49a8-956a-f1b5bedebce7",
+    "title": "Seven Samurai",
+    "year": 1954,
+    "rate": 8.6,
+    "url": "https://www.imdb.com/title/tt0047478/"
+  },
+  {
+    "id": "22b5f170-3c79-4d82-812d-5a71dfcafe33",
+    "title": "It's a Wonderful Life",
+    "year": 1946,
+    "rate": 8.6,
+    "url": "https://www.imdb.com/title/tt0038650/"
+  },
+  {
+    "id": "3381fcc6-cba0-4d45-924f-2aa61733c282",
+    "title": "The Silence of the Lambs",
+    "year": 1991,
+    "rate": 8.6,
+    "url": "https://www.imdb.com/title/tt0102926/"
+  },
+  {
+    "id": "215a66ab-d29c-4812-9ec3-0023e6a8bb9c",
+    "title": "City of God",
+    "year": 2002,
+    "rate": 8.6,
+    "url": "https://www.imdb.com/title/tt0317248/"
+  },
+  {
+    "id": "baea7cba-9e07-478f-93db-3eba92b48b03",
+    "title": "Saving Private Ryan",
+    "year": 1998,
+    "rate": 8.6,
+    "url": "https://www.imdb.com/title/tt0120815/"
+  },
+  {
+    "id": "74fcc20e-321a-4cf5-8378-a7f602980446",
+    "title": "Interstellar",
+    "year": 2014,
+    "rate": 8.6,
+    "url": "https://www.imdb.com/title/tt0816692/"
+  },
+  {
+    "id": "a85933ac-c390-4b5c-b4e6-09db5ac9cf7d",
+    "title": "Life Is Beautiful",
+    "year": 1997,
+    "rate": 8.6,
+    "url": "https://www.imdb.com/title/tt0118799/"
+  },
+  {
+    "id": "9f1a026d-1ea3-4f58-a897-c9baf0a1b6b0",
+    "title": "The Green Mile",
+    "year": 1999,
+    "rate": 8.6,
+    "url": "https://www.imdb.com/title/tt0120689/"
+  },
+  {
+    "id": "b84d669f-ff87-461b-8c3e-f9264c3295d7",
+    "title": "Star Wars: Episode IV - A New Hope",
+    "year": 1977,
+    "rate": 8.6,
+    "url": "https://www.imdb.com/title/tt0076759/"
+  },
+  {
+    "id": "dc465b64-9517-49d4-aa9e-e6b822b339bf",
+    "title": "Patched movie",
+    "year": 2013,
+    "rate": 7.3,
+    "url": "https://www.imdb.com/title/123123123/"
+  }
+]
