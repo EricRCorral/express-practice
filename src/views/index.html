@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Express practice</title>
+  </head>
+  <body>
+    <ul style="margin: 5vh auto; width: fit-content">
+      <button onclick="getAll()">Get all</button>
+      <button onclick="postMovie()">Post</button>
+    </ul>
+    <div style="margin: 5vh auto; width: fit-content">
+      <label>Title</label>
+      <input type="text" name="title" />
+      <label>Year</label>
+      <input type="number" name="year" />
+      <label>Rate</label>
+      <input type="number" name="rate" />
+      <label>Url</label>
+      <input type="text" name="url" />
+    </div>
+    <ul id="movies"></ul>
+  </body>
+  <script src="script.js"></script>
+</html>
