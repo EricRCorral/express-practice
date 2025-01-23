@@ -71,6 +71,8 @@ const deleteMovie = async (id) => {
     return;
   }
 
+  if (resp.status === 404) return;
+
   getAll();
 };
 
@@ -88,13 +90,13 @@ const patchmMovie = async (id) => {
     ...body,
   });
 
-  const resp = await (
-    await fetch(`http://localhost:8000/movies/${id}`, {
-      method: "PATCH",
-      headers: { "Content-Type": "application/json" },
-      body,
-    })
-  ).json();
+  let resp = await fetch(`http://localhost:8000/movies/${id}`, {
+    method: "PATCH",
+    headers: { "Content-Type": "application/json" },
+    body,
+  });
+
+  if (resp.status === 400) resp = await resp.json();
 
   if (!!resp.message) {
     alert(resp.message.map(({ message }) => message).join("\n"));

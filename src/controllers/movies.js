@@ -1,5 +1,10 @@
 import validateMovie from "../schemas/movies.js";
-import MovieModel from "../models/movie.js";
+
+// Local DB
+// import MovieModel from "../models/local/movie.js";
+
+// MySQL DB
+import MovieModel from "../models/mysql/movies.js";
 
 export default class MovieController {
   static getAll = async (req, res) => {
@@ -36,7 +41,7 @@ export default class MovieController {
     const RESULT = await MovieModel.delete({ id: req.params.id });
 
     if (RESULT === false) {
-      res.status(404);
+      res.status(404).send();
       return;
     }
 
@@ -44,21 +49,26 @@ export default class MovieController {
   };
 
   static patch = async (req, res) => {
-    const { success, data, error } = validateMovie(req.body);
+    const { success, data, error } = validateMovie({
+      ...req.body,
+      rate: Number(req.body.rate),
+    });
 
     if (!success)
       return res.status(400).json({ message: JSON.parse(error.message) });
 
     const { id } = req.params;
 
-    const UPDATED_MOVIE = await MovieModel.update({
+    const RESULT = await MovieModel.update({
       id,
       data,
     });
 
-    if (UPDATED_MOVIE === false)
-      res.status(404).json({ message: "Movie not found" });
+    if (RESULT === false) {
+      res.status(404).send();
+      return;
+    }
 
-    res.status(200).json(UPDATED_MOVIE);
+    res.status(204).send();
   };
 }
